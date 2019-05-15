@@ -13,6 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Date 2019/5/14 11:56 AM
  */
 public class SessionUtil {
+
     private static final Map<String, Channel> userIdChannelMap = new ConcurrentHashMap<>();
 
     private static final Map<String, ChannelGroup> groupIdChannelGroupMap = new ConcurrentHashMap<>();
